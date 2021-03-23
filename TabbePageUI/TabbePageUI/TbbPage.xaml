@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:TabbePageUI="clr-namespace:TabbePageUI"
+            x:Class="TabbePageUI.TbbPage">
+  <!--Pages can be added as references or inline-->
+    <TabbePageUI:InicioPage Title="INCIO" IconImageSource="home.png"></TabbePageUI:InicioPage>
+    <TabbePageUI:PerfilPage Title="PERFIL" IconImageSource="user.png"></TabbePageUI:PerfilPage>
+    <TabbePageUI:ConfiguracionPage Title="CONGURACION" IconImageSource="Settings.png"></TabbePageUI:ConfiguracionPage>
+</TabbedPage>
